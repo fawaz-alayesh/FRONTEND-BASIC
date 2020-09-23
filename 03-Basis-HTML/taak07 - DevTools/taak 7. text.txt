@@ -1,0 +1,6 @@
+Ja er staat <h1 class "slogan">Make your Day</h1>
+ja er staat <h2 class ="sub-slogan">
+                    <strong>Real people. Real Videos.</strong>
+ja de kopjes staan tussen <h4></h4>
+ en de links staan onder <spam>
+                 <a class="item-sub-column" href="/about?lang=nl"><h5>Over</h5></a>
