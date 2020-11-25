@@ -9,12 +9,16 @@
     <style>
         body{
             background-color: black;
+            width: 100%;
+            height: 100%;
+            font-family: 'Times New Roman', Times, serif;
         }
     </style>
     <style>
         h1{
             text-align: center;
             color:white;
+            font-family:'Times New Roman', Times, serif;
         }
     </style>
 
@@ -30,21 +34,37 @@
            margin-right:auto;
            display:block;
        }
+       .btn{
+           display:block;
+           position: absolute;
+           top: 60px;
+           left: 40%;
+           width: 20%;
+           height: 50px;
+           background: rgba(255, 255, 255, 0.493);
+           border-radius: 25%;
+       }
+       .btn a{
+        text-decoration: none;
+       }
    </style>
 </head>
     <body>
-        <h1>Ik ben</h1>\
+        
+        <h1>Ik ben</h1>
 <p> Fawaz Alayesh, 23 jaar ik kom uit Aalsmeer, ik studeer software development</P>
 <p> En als ICT student Probeer ik mezelf te verdiepen in programeertalen (HTML,CSS,JAVASCRIPT)</p>
 <p> Ik Ben blij dat ik een website kan maken, en dat maakt me zo trots </p> 
-<button>
-<a href=file:///C:/Users/fa_ay/OneDrive%20-%20ROCvA,%20ROCvF%20en%20VOvA/jaar1/frontend-basic/opdracht/Mijnwebsite2.html>Link naar mijn tweede pagina</a>
+<button class="btn">
+<a href=file:///C:/Users/fa_ay/OneDrive%20-%20ROCvA,%20ROCvF%20en%20VOvA/jaar1/frontend-basic/opdracht/Mijnwebsite2.html >Link naar mijn tweede pagina</a>
 </button>
  <img src="Fawaz.jpg">
 
    <script>
-    let mijnVoornaam = "Fawaz,23" 
-    alert (mijnVoornaam);
+    let mijnVoornaam = "Fawaz";
+    let mijnleeftijd = 24;
+    let mijngegevenis = (mijnVoornaam + mijnleeftijd);
+    alert (mijngegevenis);
    </script>
 
 
